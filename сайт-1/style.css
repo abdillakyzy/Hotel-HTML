@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background: #0B0B22;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header {
+  padding: 25px 0;
+}
+.header h1 {
+ 
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.25px;
+  color: #fff;
+  font-style: normal;
+}
+.header-nav a {
+  color: rgb(255, 255, 255, 0.8);
+  font-size: 16px;
+  font-weight: 400; 
+  margin: 0 25px;  
+}
+.header button {
+  background: #ffffff1a;
+  padding: 10px 30px 10px 30px;
+ 
+  border-radius: 3px 0px 0px 0px;
+ 
+  box-shadow: 0px 15px 30px 0px #0000001a;
+  padding: 10px 30px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.hero h3 {
+  color: #16fcd2;
+  text-shadow: 0px 4px 4px 0px #00000040;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 1.6px;
+}
+#hero {
+  margin: 70px 0;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.hero h1 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  margin: 30px 0;
+}
+.hero p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 25px;
+  color: #ffffff99;
+}
+.btn-left {
+  width: (195px);
+  height: (52px);
+  top: 506px;
+  left: 507px;
+  padding: 15px 55px 15px 55px;
+  border-radius: 3px 0px 0px 0px;
+  background: #6016fc;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  color: #fff;
+}
+.btn-right {
+  padding: 15px 55px 15px 55px;
+  color: #ffffff;
+  border-radius: 3px 0px 0px 0px;
+  font-size: 16px;
+  background: #ffffff1a;
+  width: (195px);
+  height: (52px) px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+#footer {
+  margin: 70px 0;
+}
+.blocks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.block {
+  padding: 20px 0 0 30px;
+  width: 328px;
+  height: 276px;
+  background-color: rgb(27, 14, 36);
+  border-radius: 5px;
+}
+.block h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin: 20px 0 40px 0;
+}
+.block p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #ffffff99;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0;
+}
